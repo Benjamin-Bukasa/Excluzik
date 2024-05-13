@@ -1,0 +1,111 @@
+### User stories de l'application excluzik
+
+# Flow
+
+## Acteurs 
+
+    - Les utilisateurs non-abonnés et les abonnés
+    - Les musiciens 
+    - Les administrateur par niveau de privilèges 
+
+## Relation
+
+    - Un utilisateur non-abonné peut créer un compte et l'associer à son service mobile et s'abonner à un ou plusieurs musiciens pour voir, écouter une partie et acheter leurs chansons
+    - Un musiciens peut créer un compte est l'associer à son compte mobile money pour publier du contenu et le vendre aux utilisateurs 
+    - Un administrateur créer un compte et peut valider la création de compte d'un musicien selon le niveau de privilège qu'il possède. 
+
+# Fonctionnalités
+
+## Fonctionnalités clés
+
+- Page d'accueil 
+    - En tant qu'utilisateur je dois avoir une page me présentant les différents artistes inscrits sur la plateforme et une liste de chansons par :
+        -- catégorie de musique 
+        -- artiste 
+        -- nouveauté
+        -- les plus vendus 
+        -- les chansons récommandées par l'application 
+    - une zone de recherche 
+    - un sidebar contenant les menu de navigation 
+    - un navbar m'indiquant si je suis connecté ou pas et l'icon de norification et de paramètre de compte 
+    - une footer me permettant de gerer la chansons en cours de lecture
+
+
+- Page de connexion 
+    - Entant qu'utilisitateur je serai en mesure de voir en premier lieu une page contenant une barre de navigation qui contient le logo et le menu de navigation qui amène à la page d'accueil et la page d'inscription, un formulaire de connexion pour entrer mes identifiants afin de me connecter dans la plateforme.
+
+    - Le formulaire sera composer de plusieurs champs dont celui : 
+        -- d'e-mail/numéro de téléphone
+        -- d'un mot de passe créé lors de l'inscription.
+        -- d'une case à cocher pour enregistrer mes identifiant, afin de ne pas avoir à entrer mes identifiants à chaque fois que je vais utiliser l'application
+        -- d'un lien de connexion qui me permettra de réinitialiser mon mot de passe, si ce dernier est oublié
+        -- d'un bouton qui me redirige sur la page d'inscription si je n'ai pas de compte dans la plateforme
+
+- Page d'inscription 
+    - En tant que utilisteur sur la page d'inscription je serai en mesure de voir et remplir le formulaire d'inscription qui me demandera d'entrer: 
+        -- mon prenom et mon nom
+        -- mon année de naissance 
+        -- ma ville actuelle
+        -- mon genre
+        -- mon email 
+        -- mon numéro de téléphone (mobile money si possible) 
+        -- un nouveau mot de passe et le confirmer
+        -- cocher la case si j'ai lu et accepté les termes et conditions d'utilisations de la plateforme
+
+    - un sms à 4 chiffre ou un email de confirmation me sera envoyer pour valider mon compte, ainsi je serai rédiriger vers la page d'accueil avec mon compte connecté 
+         
+- Page musicien 
+    - en tant qu'utilisateur je serais à mesure de voir sur la page d'accueil 
+
+## Fonctionnalités secondaire 
+
+- Acheter une chansons ou une playlist
+    - entant qu'utilisateur je serais en mesure de 
+
+# benchmark 
+
+** Le benchmark choisis pour cette web app et juste une maquette d'une application de musique libre trouvé sur pinterest dont le droit d'auteur n'est pas requis
+    - Le thème est sombre, mais on ajoutera un autre thème claire pour permettre l'accèssibilité à ceux qui ont le problème de vue.
+    - les icons à utiliser seront ceux de react-icons 
+    - on y ajoutera la responsivité pour ceux qui utiliseront les mobiles devices 
+
+# Sprints
+
+## Semaine 1: Maquettage 
+
+### Création du wireframe/de la maquette
+
+- #Day1 Creation de la maquette des composants : 23h00 - 00h00
+        - Navbar connexion/inscription
+        - Formulaire connexion
+        - formulaire inscription
+
+- #Day2 Création de la maquette des composants : 23h00 - 00h00
+        - Left Sidebar home page 
+        - hero section home page
+        - recommandé album composant
+        - recommandé artiste
+
+- #Day3 Création de la maquette des composants : 23h00 - 00h00 
+        - Right Sidebar home page 
+        - bottom section playing home page
+        - formulaire de création de compte musicien
+
+- Day4  Création de la maquette des pages : 23h00 - 00h00
+        - pages connexion
+        - pages inscription
+        - page home
+        - page formulaire musicien
+
+- Day5 Sprint review : 23h00 - 00h00
+        - Correction des erreurs 
+        - ajout des composants ou pages maquantes 
+
+## Semaine 2 : Création de l'interface utilisateur 
+
+## Semaine 3 : Implémentation de fonctionnalité Front-end
+
+## Semaine 4 : Création du server express (API)
+
+## Semaine 5 : Connexion du front-end au back-end
+
