@@ -1,4 +1,6 @@
+import RightSidebar from "./components/RightSidebar"
 import Sidebar from "./components/Sidebar"
+import Timeline from "./components/Timeline"
 
 
 function App() {
@@ -6,7 +8,11 @@ function App() {
 
   return (
     <>
-    <Sidebar/>
+    <div className="w-full h-screen flex justify-start items-start ">
+      <Sidebar/>
+      <Timeline/>
+      <RightSidebar/>
+    </div>
     </>
   )
 }
