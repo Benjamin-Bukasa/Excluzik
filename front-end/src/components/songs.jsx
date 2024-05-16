@@ -21,7 +21,7 @@ export const songs = [
         id:4,
         image:"https://akumradio.fm/wp-content/uploads/2021/05/IMG_01052021_113912_1000_x_600_pixel.jpg",
         artiste:"Fally Ipupa",
-        title:"Album - Tokoss II",
+        title:"Amor",
     },
     {
         id:5,

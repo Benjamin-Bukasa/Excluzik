@@ -2,7 +2,7 @@ import { GoDash } from "react-icons/go";
 
 
 
-function SongList() {
+function SongOptions() {
   return (
     <div className="w-2/3 flex flex-col gap-6">
       <h3 className="font-bold text-[17px]">Liste de chansons</h3>
@@ -15,4 +15,4 @@ function SongList() {
   )
 }
 
-export default SongList
+export default SongOptions
