@@ -1,9 +1,16 @@
+import '../App.css'
+// import { songs } from './songs';
+
 
 
 function Caroussel() {
+
+
+
+
   return (
-    <div className="flex w-full  justify-center items-center">
-        
+    <div className="">
+     
     </div>
   )
 }

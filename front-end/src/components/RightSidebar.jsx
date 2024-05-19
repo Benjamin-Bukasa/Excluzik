@@ -1,11 +1,15 @@
+import EnVente from "./EnVente"
+import TopWeek from "./TopWeek"
 import UserOptions from "./UserOptions"
 
 
 
 function RightSidebar() {
   return (
-    <div className="w-96 h-screen flex flex-col justify-start items-center gap-10 px-10 py-4 ">
-      <UserOptions/>
+    <div className="w-[480px] h-full flex flex-col justify-start items-start gap-6 px-5 py-4 ">
+      <UserOptions />
+      <TopWeek/>
+      <EnVente/>
     </div>
   )
 }
